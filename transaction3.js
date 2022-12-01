@@ -1,6 +1,4 @@
 // 2022-11-29
-
-
 let err;
 
 function transact(title, callback) {
@@ -34,4 +32,5 @@ transact("DEALER", (err) => {
             
         });
 
+      
 // JS hell will be avoided by callback promises .
